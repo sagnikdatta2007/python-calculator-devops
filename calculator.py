@@ -5,7 +5,7 @@ import math
 
 
 
-def calculate(a , b,  operator):
+def calculate(a ,  operator ,b ):
     if operator == "+":
         return a+b 
     elif operator == "-":
@@ -25,7 +25,7 @@ def calculate(a , b,  operator):
 
 def main():
     print("--------------------------------------")
-    print("         Python Calculator            ")
+    print("         Python Devops Calculator            ")
     print("======================================")
     print("Available Operations + - * /")
     print("Press Q  to quit ")
@@ -44,7 +44,7 @@ def main():
             a = float(input("Enter the first number"))
             b = float(input("Enter the second number"))
             
-            result = calculate( a, b , operator)
+            result = calculate( a,  operator ,b )
             print("===============================")
             print(result)
             
